@@ -1,3 +1,8 @@
+# create_structure.py -  module
+# Version: 1.0.0 - 2025-08-19 - Repository standardization
+# Use case: Part of  project automation
+
+
 import os
 
 # Define the directory structure
@@ -36,3 +41,7 @@ for file_name in top_level_files:
         elif file_name == "requirements.txt":
             f.write("# Add your project dependencies here\n")
     
+
+if __name__ == "__main__":
+    # Main execution block
+    print(f"Running {__file__}")
